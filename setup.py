@@ -2,12 +2,12 @@
 
 from distutils.core import setup
 
-version = "0.13"
+version = "0.14"
 
 """Setup script for pexif"""
 
 setup (
-    name = "pexif",
+    name = "thumbor-pexif",
     version = version,
     description = "A module for editing JPEG EXIF data",
     long_description = "This module allows you to parse and edit the EXIF data tags in a JPEG image.",
@@ -27,5 +27,5 @@ setup (
                    "License :: OSI Approved :: Python Software Foundation License",
                    "Topic :: Multimedia :: Graphics"]
     )
-    
-    
+
+
