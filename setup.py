@@ -2,7 +2,7 @@
 
 from distutils.core import setup
 
-version = "0.14"
+version = "0.14.1"
 
 """Setup script for pexif"""
 
@@ -13,7 +13,7 @@ setup (
     long_description = "This module allows you to parse and edit the EXIF data tags in a JPEG image.",
     author = "Ben Leslie",
     author_email = "benno@benno.id.au",
-    url = "https://github.com/thumbor/pexif"
+    url = "https://github.com/thumbor/pexif",
     download_url = "https://pypi.python.org/packages/source/t/thumbor-pexif/thumbor-pexif-%s.tar.gz" % version,
     license = "http://www.opensource.org/licenses/mit-license.php",
     py_modules = ["pexif"],
